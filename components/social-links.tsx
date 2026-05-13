@@ -12,6 +12,8 @@ export function SocialLinks({ compact = false }: { compact?: boolean }) {
           <a
             key={social.label}
             href={social.href}
+            target="_blank"
+            rel="noreferrer"
             className="group flex items-center gap-3 rounded-full border border-black/10 bg-white/45 px-4 py-3 text-sm font-medium text-muted hover:border-black/20 hover:text-ink dark:border-white/10 dark:bg-white/[0.035] dark:hover:border-white/20 dark:hover:text-paper"
             aria-label={social.label}
             title={social.label}

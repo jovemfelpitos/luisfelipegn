@@ -39,9 +39,9 @@ export const navItems: Localized<Array<{ label: string; href: string }>> = {
 };
 
 export const socialLinks = [
-  { label: "LinkedIn", href: "#", icon: Linkedin },
-  { label: "GitHub", href: "#", icon: Github },
-  { label: "Instagram", href: "#", icon: Instagram }
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/luisfelipeeg1/", icon: Linkedin },
+  { label: "GitHub", href: "https://github.com/jovemfelpitos/", icon: Github },
+  { label: "Instagram", href: "https://www.instagram.com/luisfelipe.gn", icon: Instagram }
 ];
 
 export const copy = {
@@ -62,26 +62,28 @@ export const copy = {
     about: {
       title: "Sobre",
       intro:
-        "Sou Luis Felipe, Analista de Sistemas, criando soluções que organizam dados e automatizam tarefas com agentes de IA.",
+        "Sou Luis Felipe, tenho 22 anos e trabalho com tecnologia da informação desde 2021.",
+      paragraphs: [
+        "De lá pra cá aprendi muito sobre dados e sistemas em geral e me profissionalizei como Analista de Sistemas. Percebi que precisava realizar rotinas repetitivas e, com isso, comecei a aplicar automações dentro do meu ambiente de trabalho.",
+        "O resultado disso foi ganhar mais tempo e produtividade. Desde o começo sempre tentei otimizar o máximo de tempo nas tarefas e, depois de descobrir isso, minha vida mudou. Resolver problemas e criar soluções virou esporte, e os agentes de IA e fluxos de automação me ajudaram a melhorar cada vez mais isso.",
+        "Além disso gosto de praticar esportes, corrida é onde eu me desligo dos códigos e automações. Faço com corpo e mente coisas que são impossíveis de serem feitas via automação, por enquanto. Particularmente me sinto muito bem na natureza, e boxe virou meu novo esporte favorito, sempre ouvindo uma boa música, na maior parte das vezes rap."
+      ],
       blocks: [
         {
           title: "Perfil",
-          text: "Tecnologia aplicada ao dia a dia da operação, com foco em clareza, dados e execução."
+          text: "Tecnologia aplicada no dia a dia, com foco em organizar sistemas, dados e tarefas."
         },
         {
           title: "Atuação",
-          text: "Sistemas, CRM, integrações, relatórios e automações para processos internos."
+          text: "Sistemas, CRM, integrações, relatórios, dados e automações para processos internos."
         },
         {
           title: "Rotina",
-          text: "Análise, organização de informações, documentação e melhoria contínua de fluxos."
-        },
-        {
-          title: "Fotos",
-          text: "Espaço para registrar corrida, treino, setup, notebook, lifestyle e trabalho."
+          text: "Análise, organização de informações, melhoria de fluxos e busca por mais produtividade."
         }
       ],
-      photos: ["Corrida", "Treino", "Setup", "Notebook", "Lifestyle", "Work"]
+      offCodeTitle: "Fora dos códigos",
+      offCodeDescription: "Alguns registros da vida fora dos códigos, automações e telas."
     },
     projects: {
       title: "Projetos",
@@ -118,27 +120,28 @@ export const copy = {
     },
     about: {
       title: "About",
-      intro:
-        "I am Luis Felipe, a Systems Analyst creating solutions that organize data and automate tasks with AI agents.",
+      intro: "I am Luis Felipe, 22 years old, and I have worked with information technology since 2021.",
+      paragraphs: [
+        "Since then I have learned a lot about data and systems in general and became a Systems Analyst. I noticed I had to handle repetitive routines, so I started applying automations inside my work environment.",
+        "The result was more time and productivity. Since the beginning I have always tried to optimize as much time as possible in tasks, and after discovering this my life changed. Solving problems and creating solutions became a sport, and AI agents and automation flows helped me improve this more and more.",
+        "Besides that, I like practicing sports. Running is where I disconnect from code and automations. I do with body and mind things that are impossible to do through automation, for now. I feel really good in nature, and boxing became my new favorite sport, usually listening to good music, most of the time rap."
+      ],
       blocks: [
         {
           title: "Profile",
-          text: "Technology applied to daily operations, focused on clarity, data and execution."
+          text: "Technology applied to everyday routines, focused on organizing systems, data and tasks."
         },
         {
           title: "Work",
-          text: "Systems, CRM, integrations, reports and automations for internal processes."
+          text: "Systems, CRM, integrations, reports, data and automations for internal processes."
         },
         {
           title: "Routine",
-          text: "Analysis, information organization, documentation and continuous flow improvement."
-        },
-        {
-          title: "Photos",
-          text: "Space for running, training, setup, notebook, lifestyle and work records."
+          text: "Analysis, information organization, flow improvement and a search for more productivity."
         }
       ],
-      photos: ["Running", "Training", "Setup", "Notebook", "Lifestyle", "Work"]
+      offCodeTitle: "Outside the code",
+      offCodeDescription: "Some records of life outside code, automations and screens."
     },
     projects: {
       title: "Projects",
@@ -162,6 +165,16 @@ export const copy = {
 } satisfies Localized<Record<string, unknown>>;
 
 export const workflowNodes = ["API", "CRM", "Workflow", "WhatsApp", "Database"];
+
+export const aboutGallery = [
+  "/about-gallery/1.jpeg",
+  "/about-gallery/2.jpeg",
+  "/about-gallery/3.jpeg",
+  "/about-gallery/5.jpeg",
+  "/about-gallery/6.jpeg",
+  "/about-gallery/7.jpeg",
+  "/about-gallery/8.jpeg"
+];
 
 export const experience = {
   pt: [
