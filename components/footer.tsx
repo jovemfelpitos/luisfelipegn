@@ -13,6 +13,7 @@ export function Footer() {
           <p>CNPJ: 66.773.121/0001-84</p>
           <p>Razão Social: 66.773.121 LUIS FELIPE GUIMARAES DO NASCIMENTO</p>
           <p>Endereço: RUA TARAUACA, 970 — JARDIM CUMBICA — GUARULHOS/SP — CEP 07240-180</p>
+          <p>Contato: 11 9 4460 - 9462 / contato@luisfelipegn.com</p>
         </div>
       </div>
       <p className="shrink-0">2026</p>
