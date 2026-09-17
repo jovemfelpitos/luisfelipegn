@@ -37,7 +37,7 @@ export default function AboutPage() {
         <div className="surface rounded-[2rem] p-5">
           <div className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem] border border-black/10 bg-white/45 dark:border-white/10 dark:bg-white/[0.04]">
             <Image
-              src="/profile-main.jpg"
+              src="/profile-main.png"
               alt="Luis Felipe"
               fill
               sizes="(min-width: 1024px) 420px, 100vw"
