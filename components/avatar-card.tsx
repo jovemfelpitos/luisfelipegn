@@ -6,7 +6,7 @@ export function AvatarCard() {
     <aside className="surface flex flex-col gap-6 rounded-[2rem] p-5">
       <div className="grid-pattern relative aspect-[4/5] overflow-hidden rounded-[1.5rem] border border-black/10 bg-white/50 dark:border-white/10 dark:bg-white/[0.04]">
         <Image
-          src="/profile-main.jpg"
+          src="/profile-main.png"
           alt="Luis Felipe"
           fill
           priority
