@@ -4,6 +4,21 @@
 
 **Python · FastAPI · Polars · PyArrow · DuckDB · Parquet · SQLite · React**
 
+**Estado:** em desenvolvimento · estudo de caso público.
+
+![Higienizador — desktop](images/desktop.jpg)
+
+Interface real de upload em execução local, sem carregar arquivos de clientes. O backend de processamento não foi exercitado; as consultas de apoio receberam respostas locais simuladas.
+
+<details>
+<summary>Ver no celular</summary>
+
+Registro do layout atual no celular: a barra lateral ocupa espaço excessivo e a adaptação responsiva ainda está pendente. A interface demonstrada prioriza desktop.
+
+<img src="images/mobile.jpg" alt="Higienizador — celular" width="320">
+
+</details>
+
 ## O problema
 
 Bases recebidas em planilhas precisam de validação, padronização e segmentação antes de serem utilizadas por uma operação comercial.
@@ -45,10 +60,10 @@ As finalidades são uma interpretação técnica da estrutura local, não uma tr
 
 ## Estado e limites
 
-Estudo documental baseado no README, dependências e módulos locais de leitura, validação, padronização, filtros, formatadores e auditoria. Execução e implantação não foram verificadas. Tempos de processamento, volumes suportados e ganhos percentuais não foram medidos nesta publicação.
+Estudo documental baseado no README, dependências e módulos locais de leitura, validação, padronização, filtros, formatadores e auditoria. A interface de upload foi demonstrada localmente; o pipeline completo e a implantação não foram verificados. Tempos de processamento, volumes suportados e ganhos percentuais não foram medidos nesta publicação.
 
 ## Publicação
 
-Não inclui código original, dados de clientes, bancos, credenciais ou regras específicas. O diagrama é um resumo de apresentação. Não há demonstração executável.
+Não inclui código original, dados de clientes, bancos, credenciais ou regras específicas. O diagrama é um resumo de apresentação. São publicadas capturas locais; não há demo pública executável.
 
 [Voltar ao portfólio](../../README.md)

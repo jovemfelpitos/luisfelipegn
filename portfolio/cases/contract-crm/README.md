@@ -4,6 +4,21 @@
 
 **Python · Django · Django REST Framework · PostgreSQL · Celery · Redis · OpenPyXL · Docker**
 
+**Estado:** em desenvolvimento · estudo de caso público.
+
+![CRM de contratos — desktop](images/desktop.jpg)
+
+Aplicação Django executada localmente com banco descartável e contratos, valores e pessoas fictícios. As telas não comprovam integração financeira ou homologação de produção.
+
+<details>
+<summary>Ver no celular</summary>
+
+Dashboard em viewport de celular, com indicadores organizados em coluna.
+
+<img src="images/mobile.jpg" alt="CRM de contratos — celular" width="320">
+
+</details>
+
 ## O problema
 
 A gestão de contratos em planilhas dificulta manter parcelas, pagamentos, comissões e alterações vinculados a um histórico consistente.
@@ -47,10 +62,10 @@ As finalidades são uma interpretação técnica da estrutura e dos princípios 
 
 ## Estado e limites
 
-Projeto em desenvolvimento. README, dependências e módulos accounts, contracts, commissions e audit foram inspecionados. Uma dependência presente não comprova uso em produção. Execução, homologação e implantação não foram verificadas neste estudo.
+Projeto em desenvolvimento. README, dependências e módulos accounts, contracts, commissions e audit foram inspecionados. Uma dependência presente não comprova uso em produção. Login e dashboard foram demonstrados em uma cópia local com dados sintéticos. Os demais fluxos, a homologação e a implantação não foram verificados neste estudo.
 
 ## Publicação
 
-Estudo documental sem código original, dados de clientes, bancos, credenciais ou regras específicas. O diagrama é um resumo de apresentação. Não há demonstração executável ou métricas de impacto publicadas.
+Estudo documental sem código original, dados de clientes, bancos, credenciais ou regras específicas. O diagrama é um resumo de apresentação. São publicadas capturas locais; não há demo pública executável ou métricas de impacto medidas.
 
 [Voltar ao portfólio](../../README.md)
